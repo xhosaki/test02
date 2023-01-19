@@ -3,8 +3,6 @@ public class Main {
         System.out.println("HERO!");
         Hero hero = new Hero();
         Player player = new Player();
-        player.drawHeros();
-        player.showDeck();
         System.out.println(hero.toString());
 
     }
