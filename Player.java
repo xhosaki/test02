@@ -8,7 +8,7 @@ public class Player {
 ArrayList<Hero> deck = new ArrayList<>();
 public void drawHeros() {
 
-for (int i = 0; i < 5; i++) {
+for (int i = 0; i < 4; i++) {
 this.deck.add(new Hero());
 
 }
